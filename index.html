@@ -76,7 +76,7 @@
   <h1>Ruth Wee</h1>
 
   <p>
-    I’m a linguistics graduate interested in how computational methods can deepen our understanding of human language. I write for <em>BiblioAsia</em> at the National Library of Singapore and lead the prompt engineering and analysis for a project examining how LLMs interpret the nuances of child-adult dialogue.
+    I’m a linguistics graduate interested in how computational methods can deepen our understanding of human language. I write for <em>BiblioAsia</em> at the National Library of Singapore and contribute to a project examining how LLMs interpret child-adult conversations in English, focusing on refining prompts and annotation guidelines.
   </p>
 
   <p>
@@ -89,16 +89,20 @@
   <h3>LLM Prompt Engineering & Annotation (Child-Adult Dialogues)</h3>
 
   <p>
-    This project documents a systematic, iterative approach to prompt engineering, aimed at benchmarking and improving an LLM’s ability to annotate child-adult interaction based on guidelines grounded in cognitive linguistics.
+    This project explores how Large Language Models (Gemini 2.5 Flash-Lite) can annotate child-adult conversations according to cognitive linguistic guidelines. My role focuses on iteratively refining the annotation prompts and guidelines using real transcripts to improve the model's outputs.
+  </p>
+
+  <p>
+    This work represents the first stage of a larger pipeline. Later stages, including supervised fine-tuning (SFT) and additional model evaluation, will be carried out by the research team.
   </p>
 
   <ul>
-    <li>Systematically analysing LLM outputs to identify and correct errors in discourse-level annotation.</li>
-    <li>Authoring and refining comprehensive annotation guidelines to steer model behaviour, resolving logical contradictions found in earlier versions.</li>
-    <li>Developing explicit, rule-based instructions to handle nuanced cases, such as distinguishing meaningful contributions from fillers.</li>
-    <li>Refining schema definitions and examples using Rumelhart & Norman's (1978) Modes of Learning Theory to improve the model’s conceptual interpretation of learning behaviours.</li>
-    <li>Refining the Python-based prompt generation logic in Google Colab to address issues such as factual inconsistencies, incomplete outputs, and over-tagging.</li>
-    <li>Designing JSON output structures to include evaluation metrics for ongoing performance tracking.</li>
+    <li>Analysed LLM outputs to identify and correct errors in discourse-level annotation.</li>
+    <li>Authored and refined annotation guidelines to steer model behaviour and resolve (potential) logical contradictions in earlier versions.</li>
+    <li>Created examples and rule-based instructions to guide the model for nuanced cases, e.g. distinguishing confirmation questions from information-seeking questions.</li>
+    <li>Refined schema definitions using Rumelhart & Norman's (1978) Modes of Learning Theory to improve the model’s identification of learning behaviours.</li>
+    <li>Refined Python-based prompt logic in Google Colab to fix factual inconsistencies, incomplete outputs, and over-tagging.</li>
+    <li>Added a human-scoring field to the required JSON output format to enable manual validation of LLM annotations.</li>
   </ul>
 
   <p>
