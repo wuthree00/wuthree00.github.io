@@ -76,7 +76,7 @@
   <h1>Ruth Wee</h1>
 
   <p>
-    I’m a linguistics graduate interested in how computational methods can deepen our analysis of human language. My experience includes managing Austronesian lexical datasets under <a href="https://www.austronesianist.com" target="_blank" rel="noopener noreferrer">Dr. Alexander D. Smith</a> to leading in prompt engineering for a <a href="#featured-project">cognitive linguistics project</a>. I have written for the National Library of Singapore's <a href="#writing"><em>BiblioAsia</em></a>. I am keenly interested in exploring how linguistic theory can improve how models interpret interactional discourse, especially in low-resource languages.
+    I’m a linguistics graduate interested in how computational methods can deepen our analysis of human language. My experience includes managing Austronesian lexical datasets under <a href="https://www.austronesianist.com" target="_blank" rel="noopener noreferrer">Dr. Alexander D. Smith</a> to leading prompt engineering in an <a href="#featured-project">LLM annotation project</a>. I have written for the National Library of Singapore's <a href="#writing"><em>BiblioAsia</em></a>. I am keenly interested in teaching models to distinguish pragmatic intent in interactional discourse, especially in low-resource languages.
   </p>
 
   <hr>
@@ -85,7 +85,7 @@
   <h3>LLM Prompt Engineering & Annotation (Child-Adult Dialogues)</h3>
 
   <p>
-    In collaboration with PhD students <a href="https://sites.google.com/view/jliucog/" target="_blank" rel="noopener noreferrer">Jing Liu</a> and Siqi Xie, I developed and refined a prompt engineering framework to improve Gemini's (2.5 Flash-Lite) annotation of child-adult dialogues in English. The dialogues were taken from the CHILDES corpus. By grounding the annotation guidelines in linguistic theory and iteratively debugging the logic, I improved annotation accuracy from <a href="https://github.com/wuthree00/LLM-ChildTalk-prompt-engineering/blob/7eb3d89257134b881b482a98ae8e7be5d9405fb7/performance-metrics/2025-11-24-accuracy-evaluation-2.md" target="_blank" rel="noopener noreferrer">77.4% to 82.6%.</a>
+    In collaboration with PhD students <a href="https://sites.google.com/view/jliucog/" target="_blank" rel="noopener noreferrer">Jing Liu</a> and Siqi Xie, I developed a prompt engineering framework to improve Gemini's (2.5 Flash-Lite) annotation of child-adult dialogues in English. The dialogues were taken from the CHILDES corpus.
   </p>
 
   <p>
@@ -93,9 +93,8 @@
   </p>
 
   <ul>
-    <li>Integrated Rumelhart & Norman's (1978) learning theory into the prompt framework, creating precise definitions and examples that enabled the model to distinguish between cognitive strategies like Accretion, Tuning, and Restructuring</li>
     <li>Iteratively refined Python-based prompt logic in Google Colab to mitigate model errors, including factual inconsistencies, incomplete outputs, and over-tagging</li>
-    <li>Created examples and rule-based annotation guidelines with positive and negative examples to steer model behaviour, resolving logical contradictions and improving performance on nuanced cases, eg. distinguishing confirmation questions from information-seeking questions</li>
+    <li>Provided positive and negative examples in the rule-based annotation guidelines to help the model distinguish between question types of similar surface forms but distinct pragmatic functions (eg. confirmation- vs information-seeking questions), reducing ambiguity and improving annotation accuracy from <a href="https://github.com/wuthree00/LLM-ChildTalk-prompt-engineering/blob/7eb3d89257134b881b482a98ae8e7be5d9405fb7/performance-metrics/2025-11-24-accuracy-evaluation-2.md" target="_blank" rel="noopener noreferrer">77.4% to 82.6%</a></li>
     <li>Added a human-scoring field to the required JSON output format to enable manual validation of the LLM's annotations</li>
   </ul>
 
