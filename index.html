@@ -88,16 +88,16 @@
     In collaboration with PhD students <a href="https://sites.google.com/view/jliucog/" target="_blank" rel="noopener noreferrer">Jing Liu</a> and Siqi Xie, I developed a prompt engineering framework to improve Gemini's (2.5 Flash-Lite) annotation of child-adult dialogues in English. The dialogues were taken from the CHILDES corpus.
   </p>
 
-  <p>
-    This work represents the first stage of a larger pipeline. Later stages, including supervised fine-tuning (SFT) and additional model evaluation, will be carried out by the research team.
-  </p>
-
   <ul>
     <li>Iteratively refined Python-based prompt logic in Google Colab to mitigate model errors, including factual inconsistencies, incomplete outputs, and over-tagging</li>
     <li>Provided positive and negative examples in the rule-based annotation guidelines to help the model distinguish between question types of similar surface forms but distinct pragmatic functions (eg. confirmation- vs information-seeking questions), reducing ambiguity and improving annotation accuracy from <a href="https://github.com/wuthree00/LLM-ChildTalk-prompt-engineering/blob/7eb3d89257134b881b482a98ae8e7be5d9405fb7/performance-metrics/2025-11-24-accuracy-evaluation-2.md" target="_blank" rel="noopener noreferrer">77.4% to 82.6%</a></li>
     <li>Added a human-scoring field to the required JSON output format to enable manual validation of the LLM's annotations</li>
   </ul>
 
+  <p>
+    This work represents the first stage of a larger pipeline. Later stages, including supervised fine-tuning (SFT) and additional model evaluation, will be carried out by the research team.
+  </p>
+  
   <p>
      <strong>Project repository:</strong><br>
     <a href="https://github.com/wuthree00/LLM-ChildTalk-prompt-engineering" target="_blank" rel="noopener noreferrer">
